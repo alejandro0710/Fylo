@@ -1,0 +1,740 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: hsl(217, 28%, 15%);
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+header picture {
+  padding: 10px;
+}
+
+header picture img {
+  width: 40%;
+}
+
+header nav {
+  color: hsl(0, 1%, 70%);
+  position: absolute;
+  right: 0;
+  display: flex;
+  padding: 8px;
+}
+
+header nav div {
+  margin: 0 10px;
+}
+
+header a {
+  text-decoration: none;
+  color: hsl(0, 1%, 70%);
+}
+
+.montaña {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.montaña img {
+  position: absolute;
+  top: 210px;
+  width: 100%;
+}
+
+.imgOne {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.imgOne img {
+  position: absolute;
+  top: 40px;
+  width: 80%;
+}
+
+main {
+  min-height: 1000px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background: hsl(218, 28%, 13%);
+  top: 340px;
+  padding-top: 300px;
+}
+
+.one {
+  position: absolute;
+  text-align: center;
+  top: -70px;
+  padding: 20px;
+}
+
+.one h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  line-height: 38px;
+}
+
+.one p {
+  color: hsl(0, 0%, 82%);
+  padding: 10px;
+  margin-top: 5px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.one button {
+  width: 240px;
+  height: 47px;
+  font-size: 14px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  background: hsl(198, 71%, 55%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  font-weight: 540;
+  margin-top: 18px;
+}
+
+.one button:hover {
+  cursor: pointer;
+}
+
+.two,
+.three,
+.four,
+.five {
+  width: 100%;
+  height: 280px;
+  text-align: center;
+  color: hsl(0, 0%, 82%);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionTwo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.two h3,
+.three h3,
+.four h3,
+.five h3 {
+  font-family: "Raleway", sans-serif;
+  margin: 10px;
+  color: hsl(0, 0%, 100%);
+}
+
+.two img,
+.three img,
+.four img,
+.five img {
+  width: 75%;
+  margin-bottom: 20px;
+}
+
+.six {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  padding: 20px;
+  text-align: start;
+}
+
+.six p {
+  margin: 5px;
+  color: hsl(0, 0%, 82%);
+  font-size: 13.2px;
+  padding: 1px;
+  line-height: 1.6;
+}
+
+.six a {
+  color: hsl(176, 68%, 64%);
+}
+
+.six h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 17.7px;
+  margin: 5px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.imgtwo {
+  padding: 10px;
+  align-items: center;
+}
+
+.imgtwo img {
+  width: 100%;
+}
+
+.six a {
+  text-decoration-line: none;
+}
+
+.six a img {
+  position: absolute;
+  right: 200px;
+}
+
+.linea {
+  width: 130px;
+  height: 23px;
+  margin-left: 5px;
+  font-size: 12.5px;
+  border-bottom: turquoise solid 1px;
+}
+
+.comentarios {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.comentarios article,
+.comentarios p {
+  color: hsl(0, 0%, 82%);
+}
+
+.comentarios picture {
+  height: 100px;
+}
+
+.comillas {
+  position: absolute;
+  width: 20px;
+  left: 59px;
+  padding-top: 97px;
+}
+
+.satish,
+.bruce,
+.iva {
+  width: 81%;
+  height: 140px;
+  background: hsl(219, 30%, 18%);
+  margin: 5px;
+  margin-top: 15px;
+  padding: 20px;
+  font-size: 9px;
+  letter-spacing: 0.22px;
+  border-radius: 4px;
+}
+
+.perfilOne,
+.perfilTwo,
+.perfilThree {
+  display: flex;
+  margin-top: 10px;
+}
+
+.perfilOne div,
+.perfilTwo div,
+.perfilThree div {
+  position: absolute;
+  margin-left: 32px;
+  margin-top: 10px;
+}
+
+.perfilOne img,
+.perfilTwo img,
+.perfilThree img {
+  width: 7%;
+  border-radius: 50%;
+  margin-top: 10px;
+  position: absolute;
+}
+
+.perfilOne h3,
+.perfilOne p,
+.perfilTwo h3,
+.perfilTwo p,
+.perfilThree h3,
+.perfilThree p {
+  font-size: 8px;
+}
+
+.perfilOne picture,
+.perfilTwo picture,
+.perfilThree picture {
+  width: 50px;
+}
+
+.seven {
+  z-index: 2;
+  width: 300px;
+  margin: 30px;
+  margin-top: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: hsl(218, 32%, 17%);
+  box-shadow: -1px -14px 38px rgb(0 0 0 / 30%), 0 15px 12px rgb(0 0 0 / 22%);
+  border-radius: 2%;
+}
+
+.encapsularMain {
+  display: flex;
+  justify-content: center;
+}
+
+.seven h3 {
+  margin-top: 30px;
+}
+
+.seven article {
+  margin: 15px;
+  font-size: 12px;
+  color: hsl(0, 0%, 82%);
+  padding: 10px;
+}
+
+.seven button {
+  width: 240px;
+  height: 43px;
+  font-size: 12px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  background: hsl(198, 71%, 55%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  font-weight: 540;
+  margin-top: 18px;
+  margin-bottom: 35px;
+}
+
+.seven button:hover {
+  cursor: pointer;
+}
+
+.seven input {
+  width: 240px;
+  height: 43px;
+  font-size: 14px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  padding-left: 15px;
+  font-size: 10px;
+  border: none;
+  font-weight: 540;
+  margin-top: 10px;
+}
+
+footer {
+  position: relative;
+  z-index: 1;
+  bottom: -147px;
+  color: white;
+  background: hsl(216, 53%, 9%);
+  height: 920px;
+  padding: 35px;
+}
+
+.logofooter {
+  margin-top: 200px;
+  margin-left: 10px;
+  width: 60%;
+}
+
+.ubicacion {
+  display: flex;
+  margin-top: 30px;
+  font-size: 13.8px;
+}
+
+.numero {
+  margin-top: 15px;
+  display: flex;
+}
+
+.correo {
+  display: flex;
+  margin-top: 15px;
+}
+
+.ubicacion picture,
+.correo picture {
+  margin-right: 15px;
+}
+
+.ubicacion picture img,
+.correo picture img {
+  width: 95%;
+  margin-top: 5px;
+}
+
+.ubicacion p,
+.numero p,
+.correo p {
+  width: 250px;
+  color: hsl(0, 0%, 82%);
+}
+
+.numero picture img {
+  width: 70%;
+  margin-top: 5px;
+}
+
+.numero picture {
+  margin-right: 10px;
+}
+
+.numeroUno {
+  color: hsl(0, 0%, 82%);
+  margin-top: 80px;
+}
+
+.numeroDos {
+  margin-top: 25px;
+}
+
+.numeroUno li {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.numeroDos li {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.numeroUno a,
+.numeroDos a {
+  text-decoration: none;
+  color: hsl(0, 1%, 70%);
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.redes div {
+  margin: 6px;
+  background: white;
+}
+.faceboock {
+  border-radius: 50%;
+  width: 30px;
+}
+
+.faceboock:hover {
+  background: hsl(198, 71%, 55%);
+  border-radius: 50%;
+}
+
+.twiter {
+  border-radius: 50%;
+  width: 30px;
+}
+
+.twiter:hover {
+  background: hsl(198, 71%, 55%);
+  border-radius: 50%;
+}
+
+.instagram {
+  border-radius: 50%;
+  width: 30px;
+}
+
+.instagram:hover {
+  background: hsl(198, 71%, 55%);
+  border-radius: 50%;
+}
+
+a:hover {
+  color: hsl(198, 71%, 55%);
+}
+
+@media (min-width: 768px) {
+  main {
+    margin-top: 20.4%;
+    align-items: center;
+  }
+
+  .montaña {
+    margin-top: 12%;
+  }
+
+  .one {
+    margin-top: 80px;
+  }
+  .two,
+  .three,
+  .four,
+  .five {
+    width: 80%;
+  }
+
+  .six {
+    align-items: center;
+  }
+  .imgtwo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .imgtwo img {
+    width: 70%;
+  }
+
+  .capsulaTexto {
+    width: 79%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .six a img {
+    right: 510px;
+  }
+
+  .perfilOne div,
+  .perfilTwo div,
+  .perfilThree div {
+    margin-left: 9%;
+    margin-top: 2%;
+  }
+
+  .seven {
+    width: 80%;
+  }
+
+  .logofooter {
+    width: 40%;
+  }
+
+  .datos {
+    display: flex;
+    margin-top: 20px;
+  }
+  .numero {
+    margin-top: 30px;
+  }
+
+  .correo {
+    margin-top: 30px;
+  }
+
+  .capsulaFooter {
+    margin-top: 50px;
+    display: flex;
+    align-items: baseline;
+  }
+
+  .numeroUno {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .redes div {
+    width: 8%;
+  }
+}
+
+@media (min-width: 1024px) {
+  main {
+    margin-top: 34.6%;
+    padding-top: 0;
+  }
+
+  .montaña img {
+    margin-top: 10%;
+  }
+  .imgOne img {
+    width: 45%;
+    margin-top: -130px;
+  }
+
+  header picture img {
+    width: 60%;
+    margin: 20px;
+  }
+
+  .one {
+    margin-top: -300px;
+    width: 550px;
+    font-size: 16px;
+  }
+
+  .one h1 {
+    font-size: 26px;
+  }
+  .two,
+  .three,
+  .four,
+  .five {
+    width: 380px;
+    margin: 5%;
+  }
+
+  .sectionTwo {
+    margin-top: -60px;
+    width: 100%;
+    display: flex;
+    flex-direction: unset;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .six {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .six h3 {
+    font-size: 30px;
+    width: 300px;
+  }
+
+  .six a img {
+    right: 300px;
+  }
+
+  .imgtwo {
+    width: 60%;
+  }
+
+  .capsulaTexto {
+    width: 400px;
+    margin-left: -60px;
+  }
+
+  .comillas {
+    width: 6%;
+    padding-top: 4px;
+    padding-left: 23px;
+    z-index: 1;
+  }
+
+  .comentarios {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .satish,
+  .bruce,
+  .iva {
+    width: 270px;
+    margin-top: 100px;
+    height: 200px;
+    z-index: 2;
+    font-size: 14px;
+  }
+
+  .perfilOne img,
+  .perfilTwo img,
+  .perfilThree img {
+    width: 3%;
+  }
+
+  .perfilOne div,
+  .perfilTwo div,
+  .perfilThree div {
+    margin-left: 50px;
+    margin-top: 15px;
+  }
+
+  .seven {
+    width: 560px;
+    height: 220px;
+  }
+
+  .seven button {
+    width: 150px;
+    margin-left: 10px;
+  }
+
+  .seven input {
+    width: 350px;
+  }
+
+  .seven h3 {
+    font-size: 26px;
+  }
+
+  .seven article {
+    margin-bottom: 0;
+    font-size: 13px;
+  }
+
+  .logofooter {
+    width: 16%;
+  }
+
+  .personalDate {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+  }
+
+  .orderFooter {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    align-content: center;
+    margin-top: 0;
+    margin-bottom: 50px;
+  }
+
+  .datos {
+    margin-top: 0px;
+  }
+
+  .redes {
+    margin-left: 50px;
+  }
+
+  .redes div {
+    width: 35px;
+  }
+
+  .redes img {
+    width: 100%;
+  }
+
+  .capsulaFooter {
+    margin-top: 0;
+    margin-left: -50px;
+  }
+
+  footer {
+    height: 600px;
+  }
+}
