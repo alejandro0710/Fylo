@@ -724,6 +724,10 @@ a:hover {
     margin-top: 15px;
   }
 
+  .six a img{
+    right: 330px;
+  }
+
   .seven {
     width: 560px;
     height: 280px;
