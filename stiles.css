@@ -747,6 +747,11 @@ footer {
 }
 
 @media (min-width: 1024px) {
+
+  header nav{
+    margin-right: 40px;
+  }
+
   main {
     margin-top: 34.6%;
     padding-top: 0;
@@ -788,9 +793,13 @@ footer {
     display: flex;
     flex-direction: unset;
     flex-wrap: wrap;
-    justify-content: center;
     text-align: center;
   }
+
+  .sectionTwo section {
+    width: 350px;
+  }
+
 
   .six {
     width: 100%;
@@ -927,10 +936,10 @@ footer {
 
   .capsulaFooter {
     margin-top: -65px;
-    margin-left: -50px;
   }
 
   footer {
     height: 600px;
+    padding-left: 100px;
   }
 }
