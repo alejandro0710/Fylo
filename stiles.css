@@ -747,8 +747,7 @@ footer {
 }
 
 @media (min-width: 1024px) {
-
-  header nav{
+  header nav {
     margin-right: 40px;
   }
 
@@ -799,7 +798,6 @@ footer {
   .sectionTwo section {
     width: 350px;
   }
-
 
   .six {
     width: 100%;
